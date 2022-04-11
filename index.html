@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Malhar 19</title>
+	<!-- Meta data -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	
+	<!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+
+	<!-- Style sheets -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+	<!-- Libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		
+	<!--Initialization for fullpage.js-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+			if($(window).width() <1100 && $(window).width() > 0 ){
+				$('#fullpage').fullpage({
+					autoScrolling:true,	
+					scrollOverflow : false,
+					verticalCentered : true,
+					navigation : true,	
+				});
+			}
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            if($(window).width() > 1100) {
+                $("#mainlogo").attr("src", "images/mainpage/rocketcircle.png");
+            }  
+            else 
+            {
+                $("#mainlogo").attr("src", "images/mainpage/rocket1.png");
+            }
+        }); 
+    </script>
+</head>
+<body>
+
+<div id="fullpage" class="fullPage">
+    <!-- Navigation -->
+    <div class="navigation">
+		<div class="btn">
+			<span class="top"></span>
+			<span class="bottom"></span>
+		</div>
+
+		<div class="nav-bar hidden">
+			<ul>
+			    <li><a href="http://volunteer.malharfest.org" style = "text-decoration: none; color: #fff;">Home</a></li>
+			    <li><a href = "../../pages/conclave.html" style = "text-decoration: none; color: #fff;">Conclave</a></li>
+			    <li><a href="../../pages/concert.html" style = "text-decoration: none; color: #fff;">Malhar Concert</a></li>
+			    <li><a href = "../pages/events.html" style = "text-decoration: none; color: #fff;">Events</a></li>
+			    <li><a href = "http://blog.malharfest.org/" style = "text-decoration: none; color: #fff;" target="_blank">Blog</a></li>
+			    <li><a href = "../../pages/workforce.html" style = "text-decoration: none; color: #fff;">Workforce</a></li>
+			    <li><a href = "../../pages/results.html" style = "text-decoration: none; color: #fff;">Results</a></li>
+			    <li><a href = "../../pages/participation.html" style = "text-decoration: none; color: #fff;">Participation</a></li>
+			    <li><a href = "../../pages/sponsor.html" style = "text-decoration: none; color: #fff;">Sponsors</a></li>
+			    <li><a href = "../../pages/contactus.php" style = "text-decoration: none; color: #fff;">Contact Us</a></li>
+			    <li><a href = "https://www.townscript.com/e/malhar2018" style = "text-decoration: none; color: #fff;" target="_blank">E-Pass</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- Home Page -->
+	<div id = "home" class="container section">
+		<div class="title" id="title">
+			<h1 class="head1" data-depth="0.50">MALHAR 2019</h1>
+		</div>
+		<div class="multiverse" id="multiverse">
+			<h1 class="head2" data-depth="0.30">THE MULTIVERSE</h1>
+		</div>
+		<div class="dates" id="dates">
+			<h1 class="head3" data-depth="0.50" align="center">15, 16, 17 August</h1>
+		</div>
+		<div class="logo" id="logo">
+			<div class="logo1" data-depth="0.30"><img src="images/mainpage/rocket1.png" class="mainlogo" id="mainlogo"></div>
+		</div>
+	</div>
+
+	<!-- Conclave Page -->
+	<div class="conclave section">
+    	<div class="planetary" id="scene">
+    		<div class="planet p1 " data-depth="0.30"><img src="images/mainpage/planet3.png" class="planet1_conclave"></div>
+    		<div class="planet p1" data-depth="0.30"><img src="images/mainpage/planet4.png" class="planet2_conclave"></div>
+    		<div class="planet p1" data-depth="0.30"><img src="images/mainpage/planet5.png" class="planet3_conclave"></div>
+    		<div class="planet p1" data-depth="0.30"><img src="images/mainpage/SPACESHIP.png" class="planet4_conclave"></div>
+    	</div>
+    	<div class="conclave_container co">
+    			<div class="upper_part">
+    			<div class="conclave_logo circle" id="head" >
+    				<!-- <img src="images/mainpage/circle.png" class="circle"> -->
+    				<h1 class="event_name" data-depth="0.30">CONCLAVE</h1>
+    			</div>
+    			</div>
+    			<div class="conclave_info" id="para">
+    				<div class="text_info" data-depth="0.30">
+    				<p>Since 2009, Malhar Conclave has proven to be a diverse platform where the visions of esteemed personalities interact with the thoughts of curious individuals. With each passing year, Malhar Conclave is promised to inspire this generation to achieve infinite milestones and culminate a revolutionary mindset. Thus, presenting to you the eagerly awaited speaker lineup of Malhar Conclave 2019.</p>
+    				<a href = "pages/conclave.html" style = "text-decoration: none; color: white;"><button class="button more" style="pointer-events: auto;">
+    				    VIEW
+    				    </button></a>
+    				</div>
+    			</div>
+    	</div>
+	</div>
+	<!-- Events Page -->
+    <div class="conclave section cs">
+    	<div class="planetary" id="scene1">
+    		<div class="planet p2" data-depth="0.30"><img src="images/mainpage/planet5.png" class="planet1_conclave"></div>
+    		<div class="planet p2" data-depth="0.30"><img src="images/mainpage/METEOR.png" class="planet2_conclave"></div>
+    		<div class="planet p2" data-depth="0.30"><img src="images/mainpage/planet3.png" class="planet3_conclave"></div>
+    		<div class="planet p2" data-depth="0.30"><img src="images/mainpage/COMET.png" class="planet4_conclave"></div>
+    	</div>
+    	<div class="conclave_container cc">
+    			<div class="upper_part">
+    			<div class="conclave_logo circle" id="head1" >
+    				<!-- <img src="images/mainpage/circle.png" class="circle"> -->
+    				<h1 class="event_name" data-depth="0.30" >EVENTS</h1>
+    			</div>
+    			</div>
+    			<div class="conclave_info" id="para1">
+    				<div class="text_info" data-depth="0.30">
+    				<p>As the indispensable element of the festival that evolves under innovation and ideation and resonates talent each year, events make Malhar an EVENTful journey. Presenting to you, the Events under the umbrella of Malhar 2019.</p>
+    				<a href = "pages/events.html" style = "text-decoration: none; color: white;"><button class="button more" style="pointer-events: auto;">
+    				    VIEW</button></a>
+    				</div>
+    			</div>
+    	</div>
+    </div>
+    <div class="conclave section cs1">
+    	<div class="planetary" id="scene2">
+    		<div class="planet p3" data-depth="0.30"><img src="images/mainpage/planet3.png" class="planet2_conclave"></div>
+    		<div class="planet p3" data-depth="0.30"><img src="images/mainpage/planet1.png" class="planet3_conclave"></div>
+    		<div class="planet p3" data-depth="0.30"><img src="images/mainpage/planet2.png" class="planet4_conclave"></div>
+    	</div>
+    	<div class="conclave_container cc1">
+    			<div class="upper_part">
+    			<div class="conclave_logo circle" id="head2" >
+    				<h1 class="event_name work" data-depth="0.30">WORKFORCE</h1>
+    			</div>
+    			</div>
+    			<div class="conclave_info" id="para2" style ="pointer-events: auto;">
+    				<div class="text_info" data-depth="0.30">
+    				<p>They sow the seeds of the festival and nurture it with their relentless efforts. With twenty variant departments headed by the Quartet, these individuals are truly the foundation of Malhar. Presenting to you the ever-enthusiastic workforce of Malhar 2019, who devote their heart and soul to extend the Malhar feeling, far and wide. </p>
+    				<a href="/pages/workforce.html">
+    				    <button class="button more" style="pointer-events: auto;">
+    				        VIEW
+    				        </button></a>
+    				</div>
+    			</div>
+    	</div>
+    </div>	
+    <div class="conclave section cs2">
+    	<div class="planetary" id="scene3">
+    		<div class="planet p4" data-depth="0.30"><img src="images/mainpage/planet4.png" class="planet1_conclave"></div>
+    	<!-- 	<div class="planet p4" data-depth="0.40"><img src="images/mainpage/planet3.png" class="planet2_conclave"></div> -->
+     		<div class="planet p4" data-depth="0.30"><img src="images/mainpage/planet3.png" class="planet3_conclave"></div> 
+    		 <div class="planet p4" data-depth="0.30"><img src="images/mainpage/planet1.png" class="planet4_conclave plan4"></div> 
+    	</div>
+    	<div class="conclave_container cc2">
+    			<div class="upper_part">
+    			<div class="conclave_logo circle" id="head3" >
+    				<!-- <img src="images/mainpage/circle.png" class="circle"> -->
+    				<h1 class="event_name" data-depth="0.30">SPONSORS</h1>
+    			</div>
+    			</div>
+    			<div class="conclave_info" id="para3">
+    				<div class="text_info" data-depth="0.30">
+    				<p>They are the backbones of the festival providing the essential support for Malhar to thrive endlessly and expand its outreach beyond all horizons. Presenting to you the notable sponsors of Malhar 2019.</p>
+    				<a style = "text-decoration: none; color: white;"><button class="button more" style="pointer-events: auto;">
+    				    VIEW</button></a>
+    				</div>
+    			</div>
+    	</div>
+    </div>
+
+
+	<!-- Footer Page fp-auto-height -->
+	<div class="footer section"> 
+		<div class="something"></div>
+		<div class="social_media">
+			<div class="connect_with">
+				<p>CONNECT WITH US</p>
+			</div>
+			<div class="social_icons">
+			    <div><a href="https://www.youtube.com/user/Malharchannel"><img src="images/mainpage/yt.png" class="icon youtube-icon"></a></div>
+				<div><a href="https://twitter.com/malhar2019"><img src="images/mainpage/twitter.png" class="icon twitter-icon"></a></div>
+				<div><a href="https://www.instagram.com/malharfest/?hl=en"><img src="images/mainpage/insta.png" class="icon instagram-icon"></a></div>
+				<div><a href="https://www.facebook.com/Malharfest/"><img src="images/mainpage/fb.png" class="icon facebook-icon"></a></div>
+				<div><a href="https://www.linkedin.com/in/malhar-fest-1a2286164"><img src="images/mainpage/linkedin.png" class="icon linkedin-icon"></a></div>
+			</div>
+		</div>
+	</div>
+    </div>
+	
+<!-- 	<script src="js/tilt.jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.planet').tilt({
+				scale:1.2
+				
+			})
+		})
+	</script>  -->
+
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+      <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        <!-- ScrollMagic GreenSock Plugin -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+        <!--<script src="js/main.js"></script> -->
+
+
+        <script src="js/parallax.js"></script>
+
+        <script>
+			var scene = document.getElementById('title');
+			var parallax = new Parallax(scene, {
+ 			invertX: true,
+  			invertY: true,
+  			limitX: 26,
+  			limitY: 5,  
+			});
+
+			
+		</script>
+
+        <script>
+			var scene = document.getElementById('dates');
+			var parallax = new Parallax(scene);
+		</script> 
+
+	 	<script>
+			var scene = document.getElementById('multiverse');
+			var parallax = new Parallax(scene);
+		</script> 
+
+		<script>
+			var scene = document.getElementById('logo');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('scene');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('scene1');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('scene2');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('scene3');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('para');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('para1');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('para2');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('para3');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('head');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('head1');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('head2');
+			var parallax = new Parallax(scene);
+		</script>
+
+		<script>
+			var scene = document.getElementById('head3');
+			var parallax = new Parallax(scene);
+		</script>
+		
+		<!-- NAVBAR -->
+    <script type="text/javascript">
+		$(".btn").click(function() {
+	  		var options = {
+	    	direction: "left"
+	  	};
+  		var effect = 'fade';
+  		var duration = 1200;
+  		$(".nav-bar").toggle(effect, options, duration);
+		});
+		$(".btn").click(function() {
+		$(this).toggleClass("active");
+	});
+	</script>
+	<script type="text/javascript">
+		if (matchMedia('only screen and (max-width: 1100px)').matches) {
+			$(".btn").click(function() {
+	  		$("menu").toggleClass("menu--open");
+			});
+		}
+	</script>
+	
+
+</body>
+</html>

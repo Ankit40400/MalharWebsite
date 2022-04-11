@@ -1,0 +1,506 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body  {
+  background-color: white;
+  background: url(../images/mainpage/background.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  
+}
+@font-face{
+    font-family: "gotham";
+    src: url("../fonts/gotham.otf");
+}
+@font-face{
+    font-family: "montserrat";
+    src: url("../fonts/mont.otf");
+}
+
+nav{
+	height: 3em;
+	background: #5cb1f2;
+	
+}
+h1{
+    color:white;
+    text-align:center;
+    font-family:"montserrat",sans-serif;
+}
+
+.nav-links{
+	display: flex;
+	width: 50%;
+	height: 3em;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-links li a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+
+}
+.nav-links li{
+	list-style: none;
+
+}
+
+.empty{
+	/*background-color: red;*/
+	width: 100%;
+	height: 12vh;
+}
+.main_bg{
+    background-color:rgb(8,58,106,0.8);
+    /*opacity: 0.8;*/
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.sponsor{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+
+	
+	}
+	.westside{
+		width: 20em;
+		height: auto;
+		justify-content: center;
+		margin-top: 1em;
+		/*box-shadow: 0 0 10px rgba(0,0,0,0.6);*/
+		/*-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);*/
+		/*-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);*/
+		/*-o-box-shadow: 0 0 10px rgba(0,0,0,0.6);*/
+	}
+	.presents{
+		color: #dd847a;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 3em;
+		text-align: center;
+	}
+	.present_head{
+		font-family: "Oswald", sans-serif;
+	}
+
+	.malhar{
+		width: 100%;
+		height: auto;
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 3em;
+	}
+	.malhar_logo{
+	    width:50%;
+	}
+	
+	.nykaa{
+		width:30%;
+		height: auto;
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 3em;
+		margin-left: 35%;
+
+	}
+
+	.cosponsor{
+		margin-top: 3em;
+		margin-left: 10%;
+		margin-right: 10%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: space-around;
+		border-spacing: 2%;
+
+	}
+	.cotitle{
+		margin-top: 3em;
+		color: #dd847a;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+		text-align: center;
+	}
+	.cosponsor{
+		width: 100%;
+		justify-content: space-around;
+		
+		
+	}
+	
+	
+	.red{
+		object-fit: contain;
+		width: 20%;
+		height: 10em;
+
+	}
+	.green{
+		object-fit: contain;
+		width: 20%;
+		height: 10em;
+	}
+	.blue{
+		object-fit: contain;
+		width: 20%;
+		height: 10em;
+	}
+	.powered{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 38%;
+		margin-top: 3em;
+	}
+	.partners{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+
+	}
+	.spinz{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+		margin-bottom:2em;
+
+	}
+	.nescafe{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+	}
+	.cavins{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+	}
+	.lakme{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+	}
+	.camlin{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+	}
+	.gully{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+	}
+.cuisine{
+		margin-top: 3em;
+		object-fit: contain;
+		width: 20%;
+		height: 10em;
+
+	}
+.newyork{
+		margin-top: 3em;
+		object-fit: contain;
+		width: 20%;
+		height: 10em;
+
+	}
+.j{
+		margin-top: 3em;
+		object-fit: contain;
+		width: 20%;
+		height: 10em;
+
+	}
+
+	.partners{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.entertainment{
+		width: 30%;
+		/*height: 10em;*/
+		display: flex;
+		flex-direction:column;
+		flex-wrap: wrap;
+		align-content:center;
+		align-items:center;
+		/*justify-content: center;*/
+		margin-top: 2em;
+	}
+.technology{
+		width: 30%;
+		/*height: 10em;*/
+		display: flex;
+		flex-direction:column;
+		flex-wrap: wrap;
+		align-content:center;
+		align-items:center;
+		/*justify-content: center;*/
+		margin-top: 2em;
+	}
+.noodle{
+		width: 30%;
+		/*height: 10em;*/
+		display: flex;
+		flex-wrap: wrap;
+		align-content:center;
+		flex-direction:column;
+		align-items:center;
+		/*justify-content: center;*/
+		margin-top: 2em;
+	}
+	.imagica{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+	}
+	.taiwan_tec{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+		margin-left: 10%
+
+	}
+	.wai{
+		object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+	}
+.superhuman{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+}
+.powerhouse{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+}
+
+.jindal{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+
+}
+.apsara{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.hbo{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.mi{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.book{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.free{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.skate{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+}
+.shoe{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.gift{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.social{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.bag{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.elimination{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}.cardolates{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.press{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.youth{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.judge{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+.skin{
+	object-fit: contain;
+		width: 30%;
+		height: 10em;
+	
+}
+
+
+@media screen and (max-width: 650px){
+	.line{
+		width: 30px;
+		height: 3px;
+		background: white;
+		margin: 0.4em;
+
+	}
+	.body{
+		width: 100%;
+		height: 100%;
+	}
+
+	.nav{
+		position: relative;
+	}
+	.hamburger{
+		position: absolute;
+		cursor: pointer;
+			
+	}
+
+	.nav-links{
+		position: fixed;
+		height: 100vh;
+		width: 100%;
+		background: #5cb1f2;
+		flex-direction: column;
+		clip-path: circle(2000px at 5% -90%);
+		-webkit-clip-path:circle(2000px at 5% -90%);
+		transition: all 0.2s ease-out;
+
+	}
+
+	.nav-links.open{
+		clip-path: circle(100px at 5% -90%);
+		-webkit-clip-path:circle(100px at 5% -90%);
+
+	}
+.westside{
+		width: 90%;
+		height: auto;
+		justify-content: center;
+		margin-top: 1em;
+		margin-left: auto;
+		margin-right: auto;
+		/*box-shadow: 10px 10px 5px #ccc;*/
+	}
+
+	.malhar_logo{
+		width: 90%;
+		height: auto;
+		justify-content: center;
+		margin-top: 1em;
+		margin-left: 1em;
+		margin-right: 1em;
+		
+	}
+
+	.nykaa_logo{
+		width: 90%;
+		height: auto;
+		justify-content: center;
+		margin-top: 1em;
+		margin-left: 1em;
+		margin-right: 1em;
+
+	}
+	.red{width: 90%;height: 10em;order: 1;object-fit: contain;margin-top: 1em;}
+	.green{width: 90%;height: 10em;order: 2;object-fit: contain;margin-top: 1em;}
+	.blue{width: 90%;height: 10em;order: 3;object-fit: contain;margin-top: 1em;}
+	.power{
+		max-width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 1em;
+		
+	}
+	.spinz{width: 45%;height: 10em;order: 1;margin-top: 1em;object-fit: contain;}
+	.nescafe{width: 45%;height: 10em;order: 2;margin-top: 1em;object-fit: contain;}
+	.cavins{width: 45%;height: 10em;order: 3;margin-top: 1em;object-fit: contain;}
+	.lakme{width: 45%;height: 10em;order: 4;margin-top: 1em;object-fit: contain;}
+	.camlin{width:45%;height: 10em;order: 5;margin-top: 1em;object-fit: contain;}
+	.gully{width: 45%;height: 10em;order: 6;margin-top: 1em;object-fit: contain;}
+
+	.cuisine{width: 45%;height: 10em;order: 1;margin-top: 1em;object-fit: contain;}
+	.newyork{width: 45%;height: 10em;order: 2;margin-top: 1em;object-fit: contain;}
+	.j{width: 50%;height: 10em;order: 3;margin-top: 1em;object-fit: contain;}
+
+	.imagica{width: 100%;height: 10em;order: 1;margin-top: 1em;object-fit: contain;}
+	.taiwan_tec{width: 90%;height: 10em;order: 2;margin-top: 1em;object-fit: contain;}
+	.wai{width: 90%;height: 10em;order: 3;margin-top: 1em;object-fit: contain;}
+
+	
+}

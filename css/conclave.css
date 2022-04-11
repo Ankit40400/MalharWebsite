@@ -1,0 +1,767 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: auto;
+
+	background-color: black;
+	background-image: url('../images/workforce/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size: cover;
+
+}
+@font-face{
+    font-family: "gotham";
+    src: url("../fonts/gotham.otf");
+}
+@font-face{
+    font-family: "montserrat";
+    src: url("../fonts/mont.otf");
+}
+	h1{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 3.5em;
+		text-align:center;
+	}
+	h3{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 1.5em;
+		display:none;
+	}
+
+	p{
+		color: white;
+		font-family: 'montserrat',sans-serif;
+	}
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+}
+.nav{
+	width: 100%;
+	height: 10vh;
+	padding: 3em;
+}
+.page1{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+}
+.tc{
+	width: 50%;
+	font-family:"montserrat",sans-serif;
+}
+.conclave{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+}
+
+button{
+    background-color:rgba(108, 122, 137, 0.6);
+    border:none;
+    color:white;
+    font-family:"montserrat",sans-serif;
+}
+
+@media screen and (max-width: 300px)  {
+	.container{
+display: flex;
+flex-direction: column;
+width: 100%;
+flex-wrap: wrap;
+height: auto;
+}
+.nav{
+	width: 100%;
+	height: 10vh;
+}
+.page1{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 3vh;
+}
+.page2{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 3vh;
+}
+.left{
+	display: flex;
+	width: 100%;
+	height:100%;
+}
+
+.lside{
+	display: none;
+}
+
+.cimage{
+	width: 35%;
+}
+.cimage2{
+	width: 35%;
+}
+.ccontent{
+	width: 65%;
+}
+.ccontent2{
+	width: 65%;
+}
+
+.middle{
+	/*width: 10%;*/
+
+}
+.right{
+	display: flex;
+	width: 100%;
+	height:100%;
+}
+h1{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 12vw;
+		text-align: center;
+	}
+	
+
+	p{
+		color: white;
+		font-family: 'montserrat',sans-serif;
+		font-size:1.36vw;
+		text-align: center;
+	}
+	.title{
+		padding: 7vw;
+	}
+.tc{
+	width: 100%;
+	font-size: 2.5vw;
+
+
+}
+.ccontent{
+	align-self: center;
+}
+.ccontent2{
+	align-self: center;
+}
+
+.conclave{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding-bottom: 10vh;
+	align-items: center;
+}
+
+img{
+	width:25vw;
+	height:25vw;
+	border-radius: 50%;
+}
+
+    
+    
+
+
+
+.middle{
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    /*height: 440vh; */
+    display: none;
+    z-index: 1;
+   
+}
+		
+} 
+
+
+@media only screen and (min-width: 301px) and (max-width: 600px)  {
+	.container{
+display: flex;
+flex-direction: column;
+width: 100%;
+flex-wrap: wrap;
+height: auto;
+}
+.nav{
+	width: 100%;
+	height: 10vh;
+}
+.page1{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 7vw; 
+}
+.page2{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 7vw; 
+}
+.left{
+	display: flex;
+	width: 100%;
+	height:100%;
+}
+
+.lside{
+	display: none;
+}
+
+.cimage{
+	width: 100%;
+}
+.ccontent{
+	width: 100%;
+}
+.cimage2{
+	width: 100%;
+}
+.ccontent2{
+	width: 100%;
+}
+.middle{
+	/*width: 10%;*/
+
+}
+.right{
+	display: flex;
+	width: 100%;
+	height:100%;
+}
+h1{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 12vw;
+		text-align: center;
+	}
+	h3{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 3vw;
+		position:absolute;
+		display:none;
+	}
+
+	p{
+		color: white;
+		font-family: 'montserrat',sans-serif;
+		font-size:1.36vw;
+		
+	}
+.tc{
+	width: 100%;
+	font-size: 2.5vw;
+
+}
+.title{
+	padding: 10vw;
+}
+.ccontent{
+	align-self: center;
+}
+.ccontent2{
+	align-self: center;
+}
+
+.conclave{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding-bottom: 10vh;
+	align-items: center;
+}
+
+img{
+	width: 40vw;
+	height:40vw;
+	border-radius: 50%;
+}
+/*#logorc{
+    display: flex;
+    position: fixed;
+    background-color: pink;
+    bottom: 100px;
+    /*transform: translateY(-120px);*/
+    
+    
+
+
+
+.middle{
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    /*height: 440vh; */
+    display: none;
+    z-index: 1;
+   
+}
+/*
+.middle img{
+    height: 120vh;
+    width: 4em;
+    /*transform: translateY(-10vh);*/
+  /*  position: fixed;
+    z-index: 1;
+    
+}*/
+		
+
+} 
+
+@media only screen and (min-width: 601px) and (max-width: 800px)  {
+	.container{
+display: flex;
+flex-direction: column;
+width: 100%;
+flex-wrap: wrap;
+height: auto;
+}
+.nav{
+	width: 100%;
+	height: 10vh;
+}
+.page1{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 8vw;
+}
+.page2{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 8vw;
+}
+.left{
+	display: flex;
+	width: 100%;
+	height:100%;
+}
+
+.lside{
+	display: none;
+}
+
+.cimage{
+	width: 60%;
+}
+.cimage2{
+	/*width: 35%;*/
+	order: 2;
+}
+.ccontent{
+	width: 65%;
+}
+.ccontent2{
+	align-self: center;
+}
+.middle{
+	/*width: 10%;*/
+
+}
+.right{
+	display: flex;
+	width: 100%;
+	height:100%;
+}
+h1{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 12vw;
+		text-align: left;
+	}
+	h3{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 3vw;
+		position:absolute;
+		display:none;
+	}
+
+	p{
+		color: white;
+		font-family: 'montserrat',sans-serif;
+		font-size:1.36vw;
+		
+	}
+.tc{
+	width: 100%;
+	font-size: 2.5vw;
+
+}
+.ccontent{
+	align-self: center;
+}
+
+.conclave{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding-bottom: 10vh;
+	padding-left: 4em;
+}
+
+img{
+	width:50vw;
+	height:50vw;
+	border-radius: 50%;
+}
+/*#logorc{
+    display: flex;
+    position: fixed;
+    background-color: pink;
+    bottom: 100px;
+    /*transform: translateY(-120px);*/
+    
+    
+
+
+
+.middle{
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    /*height: 440vh; */
+    display: none;
+    z-index: 1;
+   
+}
+/*
+.middle img{
+    height: 120vh;
+    width: 4em;
+    /*transform: translateY(-10vh);*/
+  /*  position: fixed;
+    z-index: 1;
+    
+}*/
+		
+
+} 
+
+@media screen and (min-width: 801px) and (max-width: 1600px) {
+
+
+.container{
+display: flex;
+flex-direction: column;
+width: 100%;
+flex-wrap: wrap;
+height: auto;
+}
+.nav{
+	width: 100%;
+	height: 10vh;
+}
+.page1{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 3vw;
+}
+.page2{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 3vw;
+}
+.left{
+	display: flex;
+	width: 45%;
+	height:100%;
+}
+
+.cimage{
+	width: 100%;
+}
+.cimage2{
+	width: 100%;
+}
+.ccontent{
+	width: 100%;
+	align-self: center;
+
+}
+.ccontent2{
+	width: 100%;
+	align-self: center;
+
+}
+.middle{
+	width: 10%;
+
+}
+.right{
+	display: flex;
+	width: 45%;
+	height:100%;
+}
+h1{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 12vw;
+		text-align: left;
+	}
+	h3{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 3vw;
+		position:absolute;
+		display:none;
+	}
+
+	p{
+		color: white;
+		font-family: 'montserrat',sans-serif;
+		font-size:1.36vw;
+		
+	}
+.tc{
+	width: 100%;
+
+}
+.tcontent{
+	width: 60%;
+}
+
+.conclave{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding-bottom:  10vh;
+	padding-left: 4em;
+}
+
+img{
+	width: 25vw;
+	height:25vw;
+	border-radius: 50%;
+}
+#logorc{
+    display: flex;
+    position: fixed;
+    background-color: pink;
+    bottom: 100px;
+    /*transform: translateY(-120px);*/
+    
+    z-index: 1;
+
+}
+
+.middle{
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    /*height: 440vh;*/
+    
+    z-index: 1;
+   
+}
+
+.middle img{
+    height: auto;
+    width: 3%;
+    transform: translateY(10vh);
+    position: fixed;
+    z-index: 1;
+    border-radius:0;
+    
+}
+button {
+    width: 14vw;
+    height: 3vw;
+    font-size:1.2em;
+}
+
+} 
+
+@media screen and (min-width: 1601px){
+
+.container{
+display: flex;
+flex-direction: column;
+width: 100%;
+flex-wrap: wrap;
+height: auto;
+}
+.nav{
+	width: 100%;
+	height: 10vh;
+}
+.page1{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 3vw;
+}
+.page2{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 3vw;
+}
+.left{
+	display: flex;
+	width: 45%;
+	height:100%;
+}
+
+.cimage{
+	width: 100%;
+}
+.cimage2{
+	width: 100%;
+}
+.ccontent{
+	width: 100%;
+	align-self: center;
+
+}
+.ccontent2{
+	width: 100%;
+	align-self: center;
+
+}
+.middle{
+	width: 10%;
+
+}
+.right{
+	display: flex;
+	width: 45%;
+	height:100%;
+}
+h1{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 12vw;
+		text-align: left;
+	}
+	h3{
+		color: white;
+		font-family: 'Raleway',sans-serif;
+		font-size: 3vw;
+		position:absolute;
+		display:none;
+	}
+
+	p{
+		color: white;
+		font-family: 'montserrat',sans-serif;
+		font-size:1.36vw;
+		
+	}
+.tc{
+	width: 100%;
+
+}
+.tcontent{
+	width: 60%;
+}
+
+.conclave{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+	padding-bottom:  10vh;
+	padding-left: 4em;
+}
+
+img{
+	width: 20vw;
+	height:20vw;
+	border-radius: 50%;
+}
+#logorc{
+    display: flex;
+    position: fixed;
+    background-color: pink;
+    bottom: 100px;
+    /*transform: translateY(-120px);*/
+    
+    z-index: 1;
+
+}
+
+.middle{
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    /*height: 440vh;*/
+    
+    z-index: 1;
+   
+}
+
+.middle img{
+    height: auto;
+    width: 4%;
+    /*transform: translateY(-10vh);*/
+    position: fixed;
+    z-index: 1;
+     border-radius:0;
+    
+}
+button {
+    width: 12vw;
+    height: 5vw;
+    font-size: 2em;
+}
+
+
+} 
+

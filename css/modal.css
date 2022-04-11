@@ -1,0 +1,411 @@
+
+/*body{*/
+/*	margin: 0;*/
+/*	padding: 0;*/
+	
+	/*background: url(../../images/workforce/background.jpg) no-repeat center center fixed;*/
+/*  	-webkit-background-size: cover;*/
+/*  	-moz-background-size: cover;*/
+/*  	-o-background-size: cover;*/
+/*  	background-size: cover;*/
+/*}*/
+
+
+.modal{
+	/*display: flex;*/
+	background-color: #0a4d8d;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 2em;
+	opacity: 0.9;
+	height:auto;
+}
+/*@font-face {
+ font-family:Langdon;
+ src:url("Langdon.otf");
+}*/
+@font-face{
+    font-family: "gotham";
+    src: url("../fonts/gotham.otf");
+}
+@font-face{
+    font-family: "montserrat";
+    src: url("../fonts/mont.otf");
+}
+p{
+	font-family: 'Montserrat',sans-serif;
+}
+
+.upper{
+	display: flex;
+	line-height:0px;
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	font-weight: bold;
+	text-align:center;
+
+}
+/*.upper div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+
+}*/
+.middle{
+	display: flex;
+	justify-content: center;
+	width:100%;  
+	height:12em;
+
+}
+.lower{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	text-align:center;
+	padding: 8vw;
+	font-size: 2vw;
+}
+
+img{
+	max-width: 50%;
+	box-sizing: border-box;
+	padding: 1em;
+	margin: auto;
+	border-radius: 20%;
+
+}
+p{
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+}
+h3{
+    text-align:center;
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	
+
+}
+h4{
+    text-align:center;
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	
+
+}
+
+@media screen and (max-width:300px)
+{
+    body{
+        background-color:black;
+    }
+	.modal{
+	/*display: flex;*/
+	width: 100%;
+	background-color: #0a4d8d;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 2em;
+	opacity: 0.9;
+}
+/*@font-face {
+ font-family:Langdon;
+ src:url("Langdon.otf");
+}*/
+p{
+	font-family: 'Montserrat',sans-serif;
+}
+
+.upper{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	font-weight: bold;
+
+}
+/*.upper div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+
+}*/
+.middle{
+	display: flex;
+	justify-content: center;
+	width:100%;  
+
+}
+.lower{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: ;
+	padding: 8vw;
+	font-size: 2vw;
+}
+
+img{
+	max-width: 50%;
+	box-sizing: border-box;
+	padding: 1em;
+	margin: auto;
+	border-radius: 20%;
+
+}
+p{
+	color: white;
+}
+
+h3{
+	color: white;
+	font-size:4vw;
+}
+}
+
+@media screen and (min-width: 301px) and (max-width:600px)
+{
+         body{
+        background-color:black;
+    }
+	.modal{
+	/*display: flex;*/
+	width: 100%;
+	background-color: #0a4d8d;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 2em;
+	opacity: 0.9;
+}
+/*@font-face {
+ font-family:Langdon;
+ src:url("Langdon.otf");
+}*/
+p{
+	font-family: 'Montserrat',sans-serif;
+}
+
+.upper{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	font-weight: bold;
+
+}
+/*.upper div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+
+}*/
+.middle{
+	display: flex;
+	justify-content: center;
+	width:100%;  
+	height:50vw;
+
+}
+.lower{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	/*background-color: ;*/
+	padding: 8vw;
+	font-size: 3.5vw;
+}
+
+img{
+	max-width: 50%;
+	box-sizing: border-box;
+	padding: 1em;
+	margin: auto;
+	border-radius: 20%;
+
+}
+p{
+	color: white;
+}
+
+h3{
+	color: white;
+	font-size:4vw;
+}
+}
+
+@media screen and (min-width: 601px) and (max-width:800px)
+{
+    body{
+	margin: 0;
+	padding: 0;
+	
+	/*background: url(../../images/workforce/background.jpg) no-repeat center center fixed;*/
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+	.modal{
+	/*display: flex;*/
+	width: 100%;
+	background-color: #0a4d8d;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 2em;
+	opacity: 0.9;
+}
+/*@font-face {
+ font-family:Langdon;
+ src:url("Langdon.otf");
+}*/
+p{
+	font-family: 'Montserrat',sans-serif;
+}
+
+.upper{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	font-weight: bold;
+
+}
+/*.upper div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+
+}*/
+.middle{
+	display: flex;
+	justify-content: center;
+	width:100%;  
+
+}
+.lower{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	/*background-color: ;*/
+	padding: 8vw;
+	font-size: 2vw;
+}
+
+img{
+	max-width: 50%;
+	box-sizing: border-box;
+	padding: 1em;
+	margin: auto;
+	border-radius: 20%;
+
+}
+p{
+	color: white;
+}
+
+h3{
+	color: white;
+	font-size:1.8em;
+}
+}
+
+
+@media screen  and (min-width:801px)
+{
+    body{
+	margin: 0;
+	padding: 0;
+	
+	/*background: url(../../images/workforce/background.jpg) no-repeat center center fixed;*/
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+	.modal{
+	/*display: flex;*/
+	width: 100%;
+	background-color: #0a4d8d;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 2em;
+	opacity: 0.9;
+}
+/*@font-face {
+ font-family:Langdon;
+ src:url("Langdon.otf");
+}*/
+p{
+	font-family: 'Montserrat',sans-serif;
+}
+
+.upper{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	font-weight: bold;
+
+}
+/*.upper div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+
+}*/
+.middle{
+	display: flex;
+	justify-content: center;
+	width:100%;  
+	height:auto;
+
+}
+.lower{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	
+	padding: 0;
+	font-size: 1.1em;
+}
+
+img{
+	max-width: 50%;
+	box-sizing: border-box;
+	padding: 1em;
+	margin: auto;
+	border-radius: 20%;
+
+}
+p{
+	color: white;
+	padding: 2em;
+}
+
+h3{
+	color: white;
+	/*font-size:3vh;*/
+}
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Participation </title>
+	<!-- Stylesheet -->
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/participation.css">
+	<link rel="stylesheet" type="text/css" href="../css/navigation_participation.css">
+	<!-- Libraries -->
+    <script src="../js/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+<body>
+	<div class="main_flex">
+		<div class="navigation">
+    		<div class="btn">
+    			<span class="top"></span>
+    			<span class="bottom"></span>
+    		</div>
+    
+    		<div class="nav-bar hidden">
+    			<ul>
+    			    <li><a href="http://volunteer.malharfest.org" style = "text-decoration: none; color: #fff;">Home</a></li>
+			    <li><a href = "../../pages/conclave.html" style = "text-decoration: none; color: #fff;">Conclave</a></li>
+			    <li><a href="../../pages/concert.html" style = "text-decoration: none; color: #fff;">Malhar Concert</a></li>
+			    <li><a href="../../pages/events.html" style = "text-decoration: none; color: #fff;">Events</a></li>
+			    <li><a href = "http://blog.malharfest.org/" style = "text-decoration: none; color: #fff;" target = "_blank">Blog</a></li>
+			    <li><a href = "../../pages/workforce.html" style = "text-decoration: none; color: #fff;">Workforce</a></li>
+			    <li><a href = "../../pages/results.html" style = "text-decoration: none; color: #fff;">Results</a></li>
+			    <li><a href = "../../pages/participation.html" style = "text-decoration: none; color: #fff;">Participation</a></li>
+			    <li><a href = "../../pages/sponsor.html" style = "text-decoration: none; color: #fff;">Sponsors</a></li>
+			    <li><a href = "../../pages/contactus.php" style = "text-decoration: none; color: #fff;">Contact Us</a></li>
+			    <li><a href = "https://www.townscript.com/e/malhar2018" style = "text-decoration: none; color: #fff;" target = "_blank">E-Pass</a></li>
+    			</ul>
+    		</div>
+		</div>
+		<div class="header_flex">
+				<h1 class="participation">PARTICIPATION</h1>
+		</div>
+		<div class="parti_flex">
+			<div class="first"><a href="../pdf/eblocal2019.pdf" download><img src="../images/participation/eb.png" class="first_img"></a></div>
+			<div class="second"><a href="#" download><img src="../images/participation/eb.png" class="second_img"></a></div>
+			<div class="third"><a href="../pdf/ebout2019.pdf" download><img src="../images/participation/ebout.png" class="third_img"></a></div>
+			<div class="fourth"><a href="#" download><img src="../images/participation/rnr.png" class="fourth_img"></a></div>
+			<div class="fifth"><a href="#" download><img src="../images/participation/rnroutbg.png" class="fifth_img"></a></div>
+		</div>
+		
+		<div class="footer_flex"></div>
+	</div>
+	 <script type="text/javascript">
+		$(".btn").click(function() {
+	  		var options = {
+	    	direction: "left"
+	  	};
+  		var effect = 'fade';
+  		var duration = 1200;
+  		$(".nav-bar").toggle(effect, options, duration);
+		});
+		$(".btn").click(function() {
+		$(this).toggleClass("active");
+	});
+	</script>
+	<script type="text/javascript">
+		if (matchMedia('only screen and (max-width: 1100px)').matches) {
+			$(".btn").click(function() {
+	  		$("menu").toggleClass("menu--open");
+			});
+		}
+	</script>
+
+</body>
+</html>

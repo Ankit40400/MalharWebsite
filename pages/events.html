@@ -1,0 +1,175 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Malhar 2019</title>
+	<!--Style Sheet-->
+	<link rel="stylesheet" type="text/css" href="../css/navigation_events.css">
+	<link rel="stylesheet" type="text/css" href="../css/events.css">
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+	<!-- Scripts -->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="../js/jquery.rwdImageMaps.min.js"></script>
+
+</head>
+<body>
+
+<div class="main_container">
+	<div class=" navigation">
+        <div class="btn">
+    			<span class="top"></span>
+    			<span class="bottom"></span>
+    		</div>
+    
+    		<div class="nav-bar hidden">
+    			<ul>
+    			    <li><a href="http://volunteer.malharfest.org" style = "text-decoration: none; color: #fff;">Home</a></li>
+    			    <li><a href = "../../pages/conclave.html" style = "text-decoration: none; color: #fff;">Conclave</a></li>
+    			    <li><a href = "../../pages/concert.html" style = "text-decoration: none; color: #fff;">Malhar Concert</a></li>
+    			    <li><a href = "http://volunteer.malharfest.org/pages/events.html" style = "text-decoration: none; color: #fff;">Events</a></li>
+    			    <li><a href = "http://blog.malharfest.org/" style = "text-decoration: none; color: #fff;" target="_blank">Blog</a></li>
+    			    <li><a href = "../../pages/workforce.html" style = "text-decoration: none; color: #fff;">Workforce</a></li>
+    			    <li><a href = "../../pages/results.html" style = "text-decoration: none; color: #fff;" >Results</a></li>
+    			    <li><a href = "http://volunteer.malharfest.org/pages/participation.html" style = "text-decoration: none; color: #fff;">Participation</a></li>
+    			    <li><a href = "../../pages/sponsor.html" style = "text-decoration: none; color: #fff;">Sponsors</a></li>
+    			    <li><a href = "../../pages/contactus.php" style = "text-decoration: none; color: #fff;">Contact Us</a></li>
+    			    <li><a href = "https://www.townscript.com/e/malhar2018" style = "text-decoration: none; color: #fff;" target="_blank">E-Pass</a></li>
+    			</ul>
+    		</div>
+    </div>
+	<div class="empty"></div>
+	<div class="heading">
+		<div class="heading_info">
+			<h1>EVENTS</h1>
+		</div>
+		<div class="heading_text">
+			<p>As the indispensable element of the festival that evolves under innovation and ideation and resonates talent each year, events make Malhar an EVENTful journey. Presenting to you, the Events under the umbrella of Malhar 2019.
+			</p>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+			<img class ="maping" src="../images/event/orbit1.png" usemap="#events" id="map">
+			<map name="events">
+                <area target="_self" alt="crossover" title="crossover" href="events_crossover.html" coords="3086,7082,416" shape="circle">
+                <area target="_self" alt="ipa" title="ipa" href="events_ipa.html" coords="3971,5822,384" shape="circle">
+                <area target="_self" alt="la" title="la" href="events_la.html" coords="1214,5329,417" shape="circle">
+                <area target="_self" alt="winc" title="winc"  coords="2647,4374,400" shape="circle">
+                <area target="_self" alt="wpa" title="wpa" href="events_wpa.html" coords="1043,2569,419" shape="circle">
+                <area target="_self" alt="fa" title="fa" href="events_fa.html" coords="3988,2307,392" shape="circle">
+                <area target="_self" alt="conclave" title="conclave" href="events_conclave.html" coords="2593,1784,403" shape="circle">
+                <area target="_self" alt="etc" title="etc" href="events_etc.html" coords="2807,390,391" shape="circle">
+            </map>
+		</div>
+	</div>
+	
+</div>
+
+<script>
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+	
+	$('area').on('click', function() {
+	});
+});
+</script>
+<!-- 
+<script type="text/javascript">
+		$(".btn").click(function() {
+	  		var options = {
+	    	direction: "left"
+	  	};
+  		var effect = 'fade';
+  		var duration = 1200;
+  		$(".nav-bar").toggle(effect, options, duration);
+		});
+		$(".btn").click(function() {
+		$(this).toggleClass("active");
+	});
+</script>
+<script type="text/javascript">
+	if (matchMedia('only screen and (max-width: 1100px)').matches) {
+		$(".btn").click(function() {
+  		$("menu").toggleClass("menu--open");
+		});
+	}
+	else{
+		$(".btn").click(function() {
+		$(this).toggleClass("active");
+		});
+	}
+</script>
+
+<script>
+$(document).ready(function() {
+    if($(window).width() <= 600) {
+    	$("#la").click(function() {
+	        $("#map").css({
+	        	'position': 'absolute',
+	        	'top': '80vh',
+	        	'left': '0vw',
+	        	'width': '20vw'
+	        });
+
+    	});
+	    $("#map").click(function() {
+	        $("#map").css({
+	        	'position': 'absolute',
+	        	'top': '20vh',
+	        	'left': '0vw',
+	        	'width': '100vw'
+	        });
+	    });
+    }
+    else if ($(window).width() > 600) {
+    	$("#la").click(function() {
+	        $("#map").css({
+	        	'position': 'absolute',
+	        	'top': '80vh',
+	        	'left': '0vw',
+	        	'width': '10vw'
+	        });
+
+    	});
+	    $("#map").click(function() {
+	        $("#map").css({
+	        	'position': 'absolute',
+	        	'top': '20vh',
+	        	'left': '0vw',
+	        	'width': '100vw'
+	        });
+	    });
+    }
+}); 
+$(document).ready(function() {
+    
+
+});
+</script>
+ -->
+<!-- End Save for Web Slices -->
+    <script type="text/javascript">
+		$(".btn").click(function() {
+	  		var options = {
+	    	direction: "left"
+	  	};
+  		var effect = 'fade';
+  		var duration = 1200;
+  		$(".nav-bar").toggle(effect, options, duration);
+		});
+		$(".btn").click(function() {
+		$(this).toggleClass("active");
+	});
+	</script>
+	<script type="text/javascript">
+		if (matchMedia('only screen and (max-width: 1100px)').matches) {
+			$(".btn").click(function() {
+	  		$("menu").toggleClass("menu--open");
+			});
+		}
+	</script>
+</body>
+</html>
+<!-- End Save for Web Slices -->
+</body>
+</html>

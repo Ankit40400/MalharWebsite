@@ -1,0 +1,857 @@
+/*div { box-sizing: border-box; }*/
+
+body{
+  background: url(../images/event/background.jpg) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+@font-face{
+    font-family: "gotham";
+    src: url("../fonts/gotham.otf");
+}
+@font-face{
+    font-family: "montserrat";
+    src: url("../fonts/mont.otf");
+}
+
+.container {
+  display: flex;
+  position:absolute;
+  top:10vh;
+  justify-content: center;
+  align-content: flex-start;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  height: 95vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+ 
+  /*border: 1px solid #000000;*/
+}
+
+.circle:hover {
+  background-color: #4c88e8;
+  
+}
+.circle{
+    font-family:'Montserrat',sans-serif;
+}
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: white;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+.circle1 {
+    background-color: #4c88e8;
+    border: 2px solid #4c88e8;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%; 
+    margin: 1em;
+    position: absolute;
+    left: 4vw;
+    top: 0;
+    font-size: 1.5em;
+}
+
+
+.circle2 {
+    border: 2px solid #4c88e8;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 22vw;
+    top: 15vh;
+    font-size: 1.2em;
+
+}
+
+.circle3 {
+    border: 2px solid #4c88e8;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 42vw;
+    top: 10vh;
+}
+
+.circle4 {
+    border: 2px solid #4c88e8;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 59vw;
+    top: 10vh;
+}
+
+.circle5 {
+    border: 2px solid #4c88e8;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 48vw;
+    top: 40vh;
+    font-size: 0.9em;
+}
+
+.circle6 {
+    border: 2px solid #4c88e8;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 65vw;
+    top: 35vh;
+}
+
+.circle7 {
+    border: 2px solid #4c88e8;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 10vw;
+    top: 38vh;
+}
+
+.circle8 {
+    border: 2px solid #4c88e8;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 30vw;
+    top: 50vh;
+}
+.circle9 {
+    border: 2px solid #4c88e8;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+}
+
+.circle10 {
+    border: 2px solid #4c88e8;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 70vw;
+    top: 45vh;
+}
+
+.circle11 {
+    border: 2px solid #4c88e8;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%; 
+    margin: 0.5em;
+    position: absolute;
+    left: 85vw;
+    top: 50vh;
+}
+
+@media screen and (max-width: 300px){
+
+  .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  }
+  .circle1{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    font-size: 0.8em; 
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  .circle2{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    font-size: 0.8em; 
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.6em;
+  }
+
+
+  .circle3{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.6em;
+  }
+
+  .circle4{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.6em;
+  }
+
+.circle5{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.6em;
+  }
+
+  .circle6{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.6em;
+  }
+
+  .circle7{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px; 
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.6em;
+  }
+
+  .circle8{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.6em;
+  }
+
+.circle9{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.6em;
+  }
+
+  .circle10{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.6em;
+  }
+.circle11{
+    border: 2px solid #4c88e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.6em;
+  }
+
+
+ 
+}
+
+@media screen and (min-width: 301px) and (max-width: 450px){
+
+   .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11{
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  }
+
+
+ .circle1{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    font-size: 1.3em; 
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  .circle2{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+
+
+  .circle3{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+  .circle4{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+
+.circle5{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+  .circle6{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+
+  .circle7{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px; 
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+  .circle8{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+
+.circle9{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+  .circle10{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+.circle11{
+    border: 2px solid #4c88e8;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+
+}
+
+@media screen and (min-width: 451px) and (max-width: 600px){
+
+   .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11{
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  }
+
+
+ .circle1{
+    border: 2px solid #4c88e8;
+    width: 180px;
+    height: 180px;
+    border-radius: 500px;
+    font-size: 1.3em; 
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  .circle2{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+
+
+  .circle3{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+  .circle4{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+
+.circle5{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+  .circle6{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+
+  .circle7{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px; 
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+  .circle8{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+
+.circle9{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+  .circle10{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:50vw;
+    font-size: 0.9em;
+  }
+.circle11{
+    border: 2px solid #4c88e8;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 0.9em;
+  }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px){
+
+   .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11{
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  }
+
+
+ .circle1{
+    border: 2px solid #4c88e8;
+    width: 240px;
+    height: 240px;
+    border-radius: 500px;
+    font-size: 1.5em; 
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  .circle2{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:55vw;
+    font-size: 1.2em;
+  }
+
+
+  .circle3{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.2em;
+  }
+
+  .circle4{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:55vw;
+    font-size: 1.2em;
+  }
+
+.circle5{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.2em;
+  }
+
+  .circle6{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:55vw;
+    font-size: 1.2em;
+  }
+
+  .circle7{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px; 
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.2em;
+  }
+
+  .circle8{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:55vw;
+    font-size: 1.2em;
+  }
+
+.circle9{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.2em;
+  }
+
+  .circle10{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:55vw;
+    font-size: 1.2em;
+  }
+.circle11{
+    border: 2px solid #4c88e8;
+    width: 220px;
+    height: 220px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.2em;
+  }
+
+
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1100px){
+
+   .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11{
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  }
+
+
+ .circle1{
+    border: 2px solid #4c88e8;
+    width: 280px;
+    height: 280px;
+    border-radius: 500px;
+    font-size: 1.8em; 
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  .circle2{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:60vw;
+    font-size: 1.4em;
+  }
+
+
+  .circle3{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.4em;
+  }
+
+  .circle4{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:60vw;
+    font-size: 1.4em;
+  }
+
+.circle5{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.4em;
+  }
+
+  .circle6{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:60vw;
+    font-size: 1.4em;
+  }
+
+  .circle7{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px; 
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.4em;
+  }
+
+  .circle8{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:60vw;
+    font-size: 1.4em;
+  }
+
+.circle9{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.4em;
+  }
+
+  .circle10{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:60vw;
+    font-size: 1.4em;
+  }
+.circle11{
+    border: 2px solid #4c88e8;
+    width: 260px;
+    height: 260px;
+    border-radius: 500px;
+    position: absolute;
+    top: inherit;
+    left:0;
+    font-size: 1.4em;
+  }
+
+
+}
+
+
